@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us</title>
+  <link rel="stylesheet" href="about.css" />
+</head>
+<body>
+  <section class="about-section">
+    <h1>Meet Our Team</h1>
+    <div class="team-container">
+      
+      <!-- Team Member 1 -->
+      <div class="team-box">
+        <img src="images/member1.jpg" alt="Teammate 1" />
+        <h3>Pallavi</h3>
+        <p class="role">Frontend Developer</p>
+        <p>Loves creating beautiful UIs and clean code.</p>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="team-box">
+        <img src="images/member2.jpg" alt="Teammate 2" />
+        <h3>Maha</h3>
+        <p class="role">Frontend Developer</p>
+        <p>Expert in databases and server-side logic.</p>
+      </div>
+
+      <!-- Team Member 3 -->
+      <div class="team-box">
+        <img src="images/member3.jpg" alt="Teammate 3" />
+        <h3>Chaitanya</h3>
+        <p class="role">Frontend Developer</p>
+        <p>Focuses on user experience and interface design.</p>
+      </div>
+
+      <!-- Team Member 4 -->
+      <div class="team-box">
+        <img src="images/member4.jpg" alt="Teammate 4" />
+        <h3>Yaswanth</h3>
+        <p class="role">Frontend Developer</p>
+        <p>Ensures our products are bug-free and reliable.</p>
+      </div>
+
+    </div>
+  </section>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+}
+
+.about-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.about-section h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.team-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-box:hover {
+  transform: translateY(-10px);
+}
+
+.team-box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-box h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.team-box .role {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.team-box p {
+  color: #555;
+  font-size: 15px;
+}
+
+  </style>
+</body>
+</html>
